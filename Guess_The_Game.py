@@ -3,7 +3,6 @@ print("Hello!!")
 print("Welcome To Guess the Number Game!!")
 chances=7
 cmp=random.randrange(1,101)
-print(cmp)
 while(chances>0):
  Guess=int(input("enter the number"))
  if(Guess==cmp):
